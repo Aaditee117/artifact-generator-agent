@@ -1,0 +1,27 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net10.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="FluentValidation.DependencyInjectionExtensions" Version="12.1.1" />
+    <PackageReference Include="MediatR" Version="14.1.0" />
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection.Abstractions" Version="10.0.5" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\OptiStudio.Domain\OptiStudio.Domain.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="DTO\Project\" />
+    <Folder Include="Features\Artifact\Commands\UploadArtifacts\" />
+    <Folder Include="Features\Artifact\Queries\GetProjectArtifacts\" />
+    <Folder Include="Features\Project\Commands\CreateProject\" />
+    <Folder Include="Features\Project\Queries\GetUserProjects\" />
+  </ItemGroup>
+
+</Project>

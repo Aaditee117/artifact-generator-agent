@@ -1,0 +1,39 @@
+# Core
+fastapi==0.115.12
+uvicorn[standard]==0.34.3
+python-dotenv==1.1.0
+pydantic>=2.11.3
+
+# Azure OpenAI
+openai==1.82.0
+
+# Azure Blob Storage
+azure-storage-blob==12.25.1
+
+# Azure Cosmos DB
+azure-cosmos==4.9.0
+
+# Database Connectivity
+pyodbc>=5.1.0
+
+# Document reading
+python-docx==1.1.2
+PyPDF2==3.0.1
+pdfplumber==0.11.4
+
+# Diagram generation — diagrams library (requires graphviz)
+diagrams==0.25.1
+
+# PPT generation
+python-pptx==1.0.2
+
+# Excel generation (Azure Cost Report)
+openpyxl==3.1.5
+
+# MCP Server
+mcp[cli]==1.9.3
+starlette==0.46.2
+
+# Image processing
+httpx==0.28.1
+Pillow>=11.2.1

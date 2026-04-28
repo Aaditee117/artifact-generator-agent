@@ -1,0 +1,32 @@
+# Ignore Python cache and virtual environments
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.venv/
+venv/
+ENV/
+.env
+
+# Ignore local config and secrets
+*.env
+*.local
+
+# Ignore test outputs and logs
+*.log
+dump.txt
+
+# Ignore OS files
+.DS_Store
+Thumbs.db
+
+# Ignore IDE/editor folders
+.vscode/
+.idea/
+
+# Ignore other files/folders not needed in image
+test_*.py
+*.ipynb
+optistudio-client/
+README.md
+OptiStudio-agent/_fix_prompt2.py

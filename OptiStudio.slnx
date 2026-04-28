@@ -1,0 +1,17 @@
+<Solution>
+  <Folder Name="/frontend/" />
+  <Folder Name="/src/">
+    <File Path="../../../../Downloads/gitignore" />
+  </Folder>
+  <Folder Name="/src/API/">
+    <Project Path="OptiStudio.API/OptiStudio.API.csproj" />
+  </Folder>
+  <Folder Name="/src/Core/">
+    <Project Path="OptiStudio.Application/OptiStudio.Application.csproj" />
+    <Project Path="OptiStudio.Domain/OptiStudio.Domain.csproj" />
+  </Folder>
+  <Folder Name="/src/Infrastructure/">
+    <Project Path="OptiStudio.Infrastructure/OptiStudio.Infrastructure.csproj" />
+    <Project Path="OptiStudio.Persistence/OptiStudio.Persistence.csproj" />
+  </Folder>
+</Solution>

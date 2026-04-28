@@ -1,0 +1,2 @@
+# Exclude dev-only scripts from Docker images and production releases
+scripts/_fix_prompt2.py

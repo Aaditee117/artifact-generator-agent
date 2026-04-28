@@ -1,0 +1,352 @@
+{
+  "last_updated": "2026-04-20T00:00:00Z",
+  "version": "1.0.0",
+  "source": "https://learn.microsoft.com/en-us/azure/architecture/icons/",
+  "services": {
+    "azure-openai": {
+      "display_name": "Azure OpenAI",
+      "status": "current",
+      "category": "AI-and-Machine-Learning",
+      "description": "Azure OpenAI Service provides REST API access to OpenAI's powerful language models",
+      "icon_filename": "Azure-OpenAI.svg",
+      "official_docs": "https://learn.microsoft.com/en-us/azure/ai-services/openai/"
+    },
+    "cognitive-services": {
+      "display_name": "Azure AI Services",
+      "status": "current",
+      "category": "AI-and-Machine-Learning",
+      "description": "Collection of AI services and APIs",
+      "icon_filename": "Cognitive-Services.svg",
+      "note": "Formerly known as Cognitive Services, now Azure AI Services"
+    },
+    "ai-search": {
+      "display_name": "Azure AI Search",
+      "status": "current",
+      "category": "AI-and-Machine-Learning",
+      "description": "AI-powered cloud search service",
+      "icon_filename": "Cognitive-Search.svg",
+      "note": "Formerly Azure Cognitive Search"
+    },
+    "machine-learning": {
+      "display_name": "Azure Machine Learning",
+      "status": "current",
+      "category": "AI-and-Machine-Learning",
+      "icon_filename": "Machine-Learning.svg"
+    },
+    "document-intelligence": {
+      "display_name": "Azure AI Document Intelligence",
+      "status": "current",
+      "category": "AI-and-Machine-Learning",
+      "description": "Extract text, key-value pairs, and tables from documents",
+      "icon_filename": "Form-Recognizers.svg",
+      "note": "Formerly Form Recognizer"
+    },
+    "app-service": {
+      "display_name": "Azure App Service",
+      "status": "current",
+      "category": "Compute",
+      "icon_filename": "App-Services.svg"
+    },
+    "function-apps": {
+      "display_name": "Azure Functions",
+      "status": "current",
+      "category": "Compute",
+      "icon_filename": "Function-Apps.svg"
+    },
+    "container-apps": {
+      "display_name": "Azure Container Apps",
+      "status": "current",
+      "category": "Containers",
+      "icon_filename": "Container-Instances.svg"
+    },
+    "kubernetes-services": {
+      "display_name": "Azure Kubernetes Service",
+      "status": "current",
+      "category": "Containers",
+      "icon_filename": "Kubernetes-Services.svg"
+    },
+    "container-registries": {
+      "display_name": "Azure Container Registry",
+      "status": "current",
+      "category": "Containers",
+      "icon_filename": "Container-Registries.svg"
+    },
+    "cosmos-db": {
+      "display_name": "Azure Cosmos DB",
+      "status": "current",
+      "category": "Databases",
+      "icon_filename": "Azure-Cosmos-DB.svg"
+    },
+    "sql-database": {
+      "display_name": "Azure SQL Database",
+      "status": "current",
+      "category": "Databases",
+      "icon_filename": "SQL-Database.svg"
+    },
+    "storage-accounts": {
+      "display_name": "Azure Storage Account",
+      "status": "current",
+      "category": "Storage",
+      "icon_filename": "Storage-Accounts.svg"
+    },
+    "api-management": {
+      "display_name": "Azure API Management",
+      "status": "current",
+      "category": "Integration",
+      "icon_filename": "API-Management-Services.svg"
+    },
+    "application-gateway": {
+      "display_name": "Azure Application Gateway",
+      "status": "current",
+      "category": "Networking",
+      "icon_filename": "Application-Gateways.svg"
+    },
+    "front-door": {
+      "display_name": "Azure Front Door",
+      "status": "current",
+      "category": "Networking",
+      "icon_filename": "Front-Door-and-CDN-Profiles.svg"
+    },
+    "virtual-networks": {
+      "display_name": "Azure Virtual Network",
+      "status": "current",
+      "category": "Networking",
+      "icon_filename": "Virtual-Networks.svg"
+    },
+    "key-vault": {
+      "display_name": "Azure Key Vault",
+      "status": "current",
+      "category": "Security",
+      "icon_filename": "Key-Vaults.svg"
+    },
+    "entra-id": {
+      "display_name": "Microsoft Entra ID",
+      "status": "current",
+      "category": "Identity",
+      "icon_filename": "Azure-AD-B2C.svg",
+      "note": "Formerly Azure Active Directory"
+    },
+    "service-bus": {
+      "display_name": "Azure Service Bus",
+      "status": "current",
+      "category": "Integration",
+      "icon_filename": "Azure-Service-Bus.svg"
+    },
+    "event-hubs": {
+      "display_name": "Azure Event Hubs",
+      "status": "current",
+      "category": "Analytics",
+      "icon_filename": "Event-Hubs.svg"
+    },
+    "application-insights": {
+      "display_name": "Azure Application Insights",
+      "status": "current",
+      "category": "DevOps",
+      "icon_filename": "Application-Insights.svg"
+    },
+    "monitor": {
+      "display_name": "Azure Monitor",
+      "status": "current",
+      "category": "DevOps",
+      "icon_filename": "Monitor.svg"
+    },
+    "azure-devops": {
+      "display_name": "Azure DevOps",
+      "status": "current",
+      "category": "DevOps",
+      "icon_filename": "Azure-DevOps.svg"
+    },
+    "synapse-analytics": {
+      "display_name": "Azure Synapse Analytics",
+      "status": "current",
+      "category": "Analytics",
+      "icon_filename": "Azure-Synapse-Analytics.svg"
+    },
+    "databricks": {
+      "display_name": "Azure Databricks",
+      "status": "current",
+      "category": "Analytics",
+      "icon_filename": "Azure-Databricks.svg"
+    }
+  },
+  "categories": {
+    "AI-and-Machine-Learning": [
+      "azure-openai",
+      "cognitive-services",
+      "ai-search",
+      "machine-learning",
+      "document-intelligence",
+      "bot-services",
+      "speech-services",
+      "computer-vision",
+      "language"
+    ],
+    "Compute": [
+      "app-service",
+      "function-apps",
+      "virtual-machine",
+      "vm-scale-sets",
+      "batch-accounts"
+    ],
+    "Containers": [
+      "container-apps",
+      "kubernetes-services",
+      "container-registries"
+    ],
+    "Databases": [
+      "cosmos-db",
+      "sql-database",
+      "sql-server",
+      "azure-database-mysql-server",
+      "azure-database-postgresql-server",
+      "cache-redis"
+    ],
+    "Storage": [
+      "storage-accounts",
+      "azure-fileshares",
+      "data-lake-storage-gen1",
+      "azure-netapp-files"
+    ],
+    "Networking": [
+      "virtual-networks",
+      "application-gateway",
+      "front-door",
+      "load-balancers",
+      "cdn-profiles",
+      "dns-zones",
+      "firewalls",
+      "bastion",
+      "vpn-gateway"
+    ],
+    "Security": [
+      "key-vault",
+      "microsoft-defender-for-cloud",
+      "azure-sentinel"
+    ],
+    "Identity": [
+      "entra-id",
+      "azure-ad-b2c",
+      "managed-identities"
+    ],
+    "Integration": [
+      "api-management",
+      "service-bus",
+      "event-grid-domains",
+      "logic-apps"
+    ],
+    "DevOps": [
+      "azure-devops",
+      "monitor",
+      "application-insights",
+      "log-analytics-workspaces"
+    ],
+    "Analytics": [
+      "synapse-analytics",
+      "databricks",
+      "event-hubs",
+      "stream-analytics-jobs",
+      "data-factories"
+    ]
+  },
+  "deprecated_services": [
+    {
+      "name": "azure-information-protection",
+      "replaced_by": "microsoft-purview-information-protection",
+      "deprecation_date": "2024-01-01",
+      "note": "Migrated to Microsoft Purview Information Protection"
+    },
+    {
+      "name": "machine-learning-studio-classic",
+      "replaced_by": "machine-learning",
+      "deprecation_date": "2024-08-31",
+      "note": "Use Azure Machine Learning instead"
+    },
+    {
+      "name": "azure-active-directory",
+      "replaced_by": "entra-id",
+      "deprecation_date": "2023-07-01",
+      "note": "Renamed to Microsoft Entra ID"
+    },
+    {
+      "name": "cognitive-search",
+      "replaced_by": "ai-search",
+      "deprecation_date": "2023-11-01",
+      "note": "Renamed to Azure AI Search"
+    },
+    {
+      "name": "form-recognizer",
+      "replaced_by": "document-intelligence",
+      "deprecation_date": "2024-01-01",
+      "note": "Renamed to Azure AI Document Intelligence"
+    }
+  ],
+  "discontinued_services": [
+    {
+      "name": "azure-blockchain-service",
+      "discontinued_date": "2021-09-10",
+      "note": "Service discontinued, migrate to Quorum Blockchain Service or other alternatives"
+    },
+    {
+      "name": "azure-blockchain-workbench",
+      "discontinued_date": "2021-09-10",
+      "note": "Service discontinued"
+    },
+    {
+      "name": "kinect-dk",
+      "discontinued_date": "2023-10-31",
+      "note": "Hardware discontinued"
+    },
+    {
+      "name": "azure-internet-analyzer",
+      "discontinued_date": "2024-01-31",
+      "note": "Service discontinued"
+    },
+    {
+      "name": "microsoft-genomics",
+      "discontinued_date": "2024-09-30",
+      "note": "Service discontinued"
+    }
+  ],
+  "microsoft_365_services": {
+    "teams": {
+      "display_name": "Microsoft Teams",
+      "icon_filename": "MS-Teams.svg",
+      "category": "Microsoft-365"
+    },
+    "sharepoint": {
+      "display_name": "Microsoft SharePoint",
+      "icon_filename": "SharePoint.svg",
+      "category": "Microsoft-365"
+    },
+    "power-bi": {
+      "display_name": "Microsoft Power BI",
+      "icon_filename": "Power-BI-Embedded.svg",
+      "category": "Analytics"
+    },
+    "microsoft-fabric": {
+      "display_name": "Microsoft Fabric",
+      "icon_filename": "Azure-Synapse-Analytics.svg",
+      "category": "Analytics",
+      "note": "Uses similar icon to Synapse Analytics"
+    }
+  },
+  "icon_guidelines": {
+    "style": "Follow Microsoft Azure Architecture icon guidelines",
+    "colors": {
+      "azure_blue": "#0078D4",
+      "ai_orange": "#FF8C00",
+      "security_purple": "#5C2D91",
+      "data_purple": "#50E6FF",
+      "networking_blue": "#0078D4"
+    },
+    "diagram_best_practices": [
+      "Use containers to group related services",
+      "Show data flow with arrows",
+      "Include Azure branding (logo) in top-right",
+      "Use clear, descriptive labels",
+      "Organize by logical tiers (frontend, backend, data, etc.)",
+      "Include monitoring and security at bottom",
+      "Use dashed lines for future/planned components"
+    ]
+  }
+}
